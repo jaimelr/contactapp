@@ -1,0 +1,13 @@
+<div class="container contacts-container">
+  <h1><%= t('contacts.edit_contact') %></h1>
+
+  <div class="form-container__contacts">
+    <%= render 'form', contact: @contact %>
+  </div>
+
+  <%= link_to contacts_path, class: 'btn-back' do %>
+    <%= fa_icon 'arrow-left' %>
+    Back
+  <% end %>
+  <%= link_to 'Show', @contact, class: 'btn-info' %>
+</div>

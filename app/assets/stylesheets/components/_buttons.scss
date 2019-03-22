@@ -1,0 +1,19 @@
+.btn-success {
+  @extend %button-style;
+}
+
+.btn-info {
+  @extend %button-style;
+}
+
+.btn-warning {
+  @extend %button-style;
+}
+
+.btn-danger {
+  @extend %button-style;
+}
+
+.btn-back {
+  color: $midnight;
+}

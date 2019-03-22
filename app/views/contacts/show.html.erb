@@ -1,0 +1,46 @@
+<div class="container contacts-container">
+  <p id="notice"><%= notice %></p>
+
+  <div class="show-contact-container">
+    <div class="contact-info">
+      <p>
+        <strong><%= t('contacts.form.name') %>:</strong>
+      </p>
+      <p><%= @contact.name %></p>
+    </div>
+
+  <div class="contact-info">
+    <p>
+      <strong><%= t('contacts.form.last_name') %>:</strong>
+    </p>
+    <p><%= @contact.last_name %></p>
+  </div>
+
+  <div class="contact-info">
+    <p>
+      <strong><%= t('contacts.form.phone') %>:</strong>
+    </p>
+    <p><%= @contact.phone %></p>
+  </div>
+
+  <div class="contact-info">
+    <p>
+      <strong><%= t('contacts.form.company') %>:</strong>
+    </p>
+    <p><%= @contact.company %></p>
+  </div>
+
+  <div class="contact-info">
+    <p>
+      <strong><%= t('contacts.form.email') %>:</strong>
+    </p>
+    <p><%= @contact.email %></p>
+  </div>
+  </div>
+
+  <%= link_to contacts_path, class: 'btn-back' do %>
+    <%= fa_icon 'arrow-left' %>
+    Back
+  <% end %>
+  <%= link_to 'Edit', edit_contact_path(@contact), class: 'btn-warning' %>
+</div>

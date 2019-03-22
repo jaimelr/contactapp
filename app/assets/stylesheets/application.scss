@@ -17,14 +17,17 @@
 
 @import 'bootstrap';
 @import 'font-awesome';
+@import 'animate';
 
 @import 'base/base';
 @import 'base/fonts';
 
 @import 'components/buttons';
+@import 'components/inputs';
 
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/hero';
 
 @import 'pages/home';
+@import 'pages/contacts';

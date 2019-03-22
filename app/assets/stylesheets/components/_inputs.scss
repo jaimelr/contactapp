@@ -1,0 +1,9 @@
+.input-text {
+  border-style: none none solid;
+  outline: none;
+  width: 100%;
+}
+
+.input-text-focused {
+  border-bottom-color: $apple;
+}

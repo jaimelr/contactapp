@@ -1,0 +1,41 @@
+.contacts-container {
+  margin-top: 80px;
+}
+
+.form-container__contacts {
+  margin-bottom: 15px;
+}
+
+.form-inputs-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+  .field {
+    flex: 1;
+    margin: 5px;
+  }
+
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+  }
+}
+
+.show-contact-container {
+  display: flex;
+  justify-content: space-between;
+
+  .contact-info {
+    flex: 1;
+    margin: 0 5px;
+  }
+
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+  }
+}
+
+.data-body__contacts {
+  height: 45px;
+  margin-bottom: 5px;
+}
