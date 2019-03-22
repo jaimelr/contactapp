@@ -1,0 +1,37 @@
+.container__auth {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.title__auth {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.new_user {
+  font-family: 'Montserrat', sans-serif;
+
+  .field {
+    margin-bottom: 10px;
+  }
+
+  .btn-success {
+    width: 100%;
+  }
+}
+
+.shared-links-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.edit_user {
+  font-family: 'Montserrat', sans-serif;
+
+  .field {
+    margin-bottom: 10px;
+  }
+}
