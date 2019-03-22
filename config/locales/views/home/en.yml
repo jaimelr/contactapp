@@ -1,4 +1,5 @@
 en:
+  app_name: ContactApp
   hero:
     title: We invest all our resources on a contact agenda
     subtitle: And you are about to discover the reason
@@ -6,3 +7,11 @@ en:
   introduction:
     title: We are not just <i>another</i> contact agenda
     subtitle: We were build for one single purpose
+  mid_section:
+    title: Meet
+    description: >
+      The web application designed specifically to achieve <strong>ONE</strong>
+      single but powerful purpose.
+  last_section:
+    title: This single but powerful purpose is...
+    description: ...to get this developer a job

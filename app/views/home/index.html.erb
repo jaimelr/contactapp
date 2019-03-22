@@ -1,1 +1,27 @@
-<h1>Hola mundo</h1>
+<%= render 'hero' %>
+<section id="homeIntroSection" class="container introduction__home we-are-section__home">
+  <h2 class="container section-title__home"><%= t('introduction.title').html_safe %></h2>
+  <p class="section-description__home"><%= t('introduction.subtitle') %></p>
+</section>
+<section id="homeSecondSection" class="introduction__home">
+  <div class="container mid-section__home">
+    <div class="section-info">
+      <h2 class="section-title__home"><%= t('mid_section.title') %> <strong class="app-name__home"><%= t('app_name') %></strong></h2>
+      <p class="section-description__home">
+        <%= t('mid_section.description').html_safe %>
+      </p>
+    </div>
+    <div class="section-image-container">
+      <%= image_tag 'contactapp_logo.png', alt: 'ContactApp logo', class: 'section-image' %>
+    </div>
+  </div>
+</section>
+<section id="homeThirdSection" class="container introduction__home last-section__home">
+  <h2 class="section-title__home"><%= t('last_section.title') %></h2>
+  <p class="section-description__home">
+    <%= t('last_section.description') %>
+  </p>
+  <div class="section-image-container">
+    <%= image_tag 'developer_image.png', alt: 'Developer profile image', class: 'section-image' %>
+  </div>
+</section>
