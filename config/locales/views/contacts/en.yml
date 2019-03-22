@@ -1,0 +1,11 @@
+en:
+  contacts:
+    title: Contacts
+    new_contact: New Contact
+    edit_contact: Editing Contact
+    form:
+      name: Name
+      last_name: Last name
+      phone: Phone
+      company: Company
+      email: Email

@@ -10,33 +10,33 @@
       </ul>
     </div>
   <% end %>
+  <div class="form-inputs-container">
+    <div class="field">
+      <%= form.label :name %>
+      <%= form.text_field :name, class: 'input-text' %>
+    </div>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+    <div class="field">
+      <%= form.label :last_name %>
+      <%= form.text_field :last_name, class: 'input-text' %>
+    </div>
+
+    <div class="field">
+      <%= form.label :phone %>
+      <%= form.text_field :phone, class: 'input-text' %>
+    </div>
+
+    <div class="field">
+      <%= form.label :company %>
+      <%= form.text_field :company, class: 'input-text' %>
+    </div>
+
+    <div class="field">
+      <%= form.label :email %>
+      <%= form.text_field :email, class: 'input-text' %>
+    </div>
   </div>
-
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :phone %>
-    <%= form.text_field :phone %>
-  </div>
-
-  <div class="field">
-    <%= form.label :company %>
-    <%= form.text_field :company %>
-  </div>
-
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
-  </div>
-
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'btn-success' %>
   </div>
 <% end %>
