@@ -7,3 +7,10 @@
 .input-text-focused {
   border-bottom-color: $apple;
 }
+
+.form-input__auth {
+  background-color: $white;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 100%;
+}
