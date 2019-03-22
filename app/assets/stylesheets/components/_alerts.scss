@@ -1,0 +1,14 @@
+.alerts-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  z-index: -1;
+
+  .alert {
+    box-shadow: 1px 1px 10px $silver-chalise;
+    width: fit-content;
+  }
+}
