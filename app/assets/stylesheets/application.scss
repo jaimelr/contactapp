@@ -13,5 +13,17 @@
  *= require_tree .
  *= require_self
  */
+@import 'abstracts/variables';
+@import 'abstracts/colors';
+@import 'abstracts/placeholders';
 
 @import 'bootstrap';
+
+@import 'base/base';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/buttons';
+
+@import 'pages/home';
