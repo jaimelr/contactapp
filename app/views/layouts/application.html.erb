@@ -19,7 +19,9 @@
         <p class="alert alert-danger"><%= alert %></p>
       <% end %>
     </div>
-    <%= yield %>
+    <div class="main-container">
+      <%= yield %>
+    </div>
     <%= render 'shared/footer' %>
   </body>
 </html>
