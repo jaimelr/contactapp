@@ -1,0 +1,28 @@
+.footer {
+  background-color: $midnight;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.container__footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container__footer {
+  width: 60px;
+
+  .image-footer {
+    width: 100%;
+  }
+}
+
+.disclaimer__footer {
+  color: $white;
+  font-family: 'Montserrat', sans-serif;
+
+  .icon-heart {
+    color: $mandy;
+  }
+}

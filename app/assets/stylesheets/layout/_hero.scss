@@ -1,0 +1,64 @@
+.hero__home {
+  align-items: center;
+  background: linear-gradient(0deg, rgba($tory-blue, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title {
+    color: $white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
+  }
+
+  .hero-description {
+    color: $white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .fa-angle-down {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  .hero-cta {
+    animation-duration: 2s;
+    animation-name: jump;
+    animation-iteration-count: infinite;
+    background-color: transparent;
+    border-style: none;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 15px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, 15px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+
+}
