@@ -40,3 +40,17 @@
   height: 45px;
   margin-bottom: 5px;
 }
+
+.contact-image-container {
+  margin-bottom: 10px;
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-image {
+    border-radius: 5px;
+    height: 150px;
+  }
+}
