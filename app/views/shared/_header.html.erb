@@ -4,6 +4,9 @@
       <%= image_tag 'contactapp.png', alt: 'Contactapp logo', class: 'header-logo d-inline-block align-top' %>
     <% end %>
     <p class="navbar-text pull-right">
+      <%= link_to contacts_path, class: 'navbar-link contacts-header-link' do %>
+        Contacts
+      <% end %>
       <% if user_signed_in? %>
         <strong><%= current_user.email %></strong>.
         <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
