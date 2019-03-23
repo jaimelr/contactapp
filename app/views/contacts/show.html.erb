@@ -1,4 +1,11 @@
 <div class="container contacts-container">
+  <div class="contact-image-container">
+    <% if @contact.avatar.attached? %>
+      <div class="contact-info">
+        <%= image_tag @contact.avatar, alt: 'Contact image', class: 'contact-image' %>
+      </div>
+    <% end %>
+  </div>
   <div class="show-contact-container">
     <div class="contact-info">
       <p>
